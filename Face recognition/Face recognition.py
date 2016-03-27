@@ -25,7 +25,7 @@ while(True):
     box(rects, img)
 
     # Display the resulting frame
-    cv2.imshow('Simon',img)
+    cv2.imshow('Face Recognition',img)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
